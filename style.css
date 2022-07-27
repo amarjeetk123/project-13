@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --upper-color : #5A20CB ;
+    --btn-color: #1B98F5 ;
+   
+   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family:Montserrat ;   
+}
+body{
+    margin: 5px 5px;
+    background-color:  linear-gradient(rgba(255,255,255,0.5)50%,rgba(255,255,255,0.9)50%);
+}
+.top{
+    margin-top: 5px;
+    background-color: var(--upper-color);
+    color: aliceblue;
+    height: 80vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.logo{
+    height: 33px;
+    width: 110px;
+   margin-top: 30px;
+   margin-left: 80px;
+    padding: 10px;   
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+.list{
+   margin-top: 20px;
+    display: flex;
+    flex-direction: row;   
+    margin-right: 100px;
+    
+}
+.list-items{ 
+    width: 80px;
+    height: 20px;
+    margin: 10px 20px;
+   padding: 10px 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.list-items a{
+    color: #fff;
+}
+.list-items:hover{
+    background-color: var(--btn-color);
+    transition: 0.6s;
+    border-radius: 10px;
+}
+.btn{  
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    background-color:var(--btn-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+   margin-top: 9px;
+   margin-left: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #000000;
+    border: none;
+    transition: 0.5s;
+    transform: scale(1.1);
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    margin-left: 140px;
+}
+.container .left{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 50px;
+}
+.container .left h1{
+    font-size: 55px;
+    font-weight: 600;   
+}
+.container .left h4{
+    margin-top: 10px;
+    font-weight: 500;  
+}
+.container .right{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.sec{
+    width: 150px;
+    margin-left: -1px;
+    margin-top: 30px;
+}
+
+.second{
+    height: 400px;
+    width: 100%;
+   
+    margin-top: 90px;
+}
+.right-side{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.right-side h1{
+    margin: 30px 0px;
+}
+.abc{
+    margin-top: 32px;
+}
+.ml{
+    margin-left: 20px;
+}
+.same-line{
+    display: flex;
+    flex-direction: row;
+}
+.same-line h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: -8px;
+}
+.right-side p{
+    width: 400px;
+    font-weight: 500;
+    font-size: 15px;
+   margin: 7px 28px 40px;
+}
+.third{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+     margin-top: 30px;
+     
+}
+.third h1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight:700;
+}
+
+footer{
+    margin-left: -10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 220px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 24px;
+    box-shadow: 2px 2px 1px 2px #808080;
+}
+
+.square img{
+    height: 51px;
+}
+.image-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+.square h1{
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+.square p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;   
+}
+.iamge-1{
+    background: linear-gradient(rgba(232,189,13,0.5)50%,rgba(232,189,13,0.5)50%);
+}
+.image-3{
+    background: linear-gradient(rgba(226,23,23,0.4)50%,rgba(226,23,23,0.4)50%);
+}
+.image-4{
+    background: linear-gradient(rgba(141,163,223,0.6)50%,rgba(141,163,223,0.6)50%);
+}
