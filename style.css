@@ -31,7 +31,7 @@ body{
 }
 
 .first{
-    width: 100%;
+    width: 100vw;
     height: auto;
     color: #ffffff;
     border-top-right-radius: 20px;
@@ -41,8 +41,7 @@ body{
 .logo{
     height: 33px;
     width: 110px;
-   margin-top: 30px;
-   margin-left: 80px;
+  
     padding: 10px;   
 }
 
@@ -55,18 +54,17 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;  
+    position: fixed;
+    top: 0%;
+    z-index: 1;
 }
 .list{
-   margin-top: 20px;
     display: flex;
     flex-direction: row;   
-    margin-right: 100px;
-    
 }
 .list-items{ 
-    
     height: 20px;
-    margin: 10px 20px;
+    margin: 0px 20px;
    padding: 10px 30px;
    display: flex;
    justify-content: center;
@@ -92,7 +90,7 @@ nav{
     align-items: center;
     border: none;
     border-radius: 5px;
-   margin-top: 9px;
+   
    margin-left: 10px;
 }
 .btn:hover{
@@ -103,6 +101,9 @@ nav{
     transform: scale(1.1);
     border: 2px solid #ffffff;
     cursor: pointer;
+}
+.first{
+    padding: 70px 0px 50px;
 }
 
 .container{
@@ -201,13 +202,18 @@ nav{
     font-size: 25px;
     font-weight:700;
 }
-
 footer{
-    margin-left: -10px;
-    margin-top: 50px;
+  
     display: flex;
-    justify-content: center;
+    padding: 20px 0px;
+}
+.footer-containet{
+   
+    margin: 0px auto;
+    display: flex;
+ justify-content: center;
     color: black;
+    flex-wrap: wrap;
 }
 .square{
     display: flex;
@@ -307,15 +313,15 @@ footer{
         margin: 29px auto;
         width: 50%;
         height: 100vh;
-        position: absolute;
-        top: 60px;
+        position: fixed;
+        top: 56px;
         left: -100%;
         margin-left: 5px;
         flex-direction: column;
         background-color: rgb(22, 107, 181);
     }
     .list-items{
-        font-size: 30px;
+        font-size:   0px;
      margin: 20px auto 10px;
     }
     .list-items:hover{
@@ -333,8 +339,7 @@ footer{
     .logo{
         height: 60px;
         width: 200px;
-       margin-left: -450px;
-       margin-top: -1px;
+      
     }
     .btn{
         margin: 20px auto;
